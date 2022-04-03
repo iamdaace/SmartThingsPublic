@@ -78,14 +78,13 @@ metadata {
 		}
 		attribute "Info", "string"
 
+		// Moes 2 gang
         fingerprint profileId:      "0104",
                     deviceId:       "0051",
                     inClusters:     "0000 0004 0005 EF00",
                     outClusters:    "0019 000A",
                     application:    "42",
                     manufacturer:   "_TZE200_g1ib5ldv", model: "TS0601", deviceJoinName: "Moes 2 gang switch"
-
-		
 	}
 
 	preferences {
