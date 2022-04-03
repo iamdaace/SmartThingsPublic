@@ -78,26 +78,14 @@ metadata {
 		}
 		attribute "Info", "string"
 
-        fingerprint profileId:      "0104", deviceId: "0051",
-                    inClusters:     "0000 000A 0004 0005 EF00",
-                    outClusters:    "0019",
-                    manufacturer:   "_TZE200_5apf3k9b", model: "TS0601", deviceJoinName: "TS0601 Relay"
-
-		// Moes 3 gang
-        fingerprint profileId:      "0104",
-                    deviceId:       "0051",
-                    inClusters:     "0000 0004 0005 EF00",
-                    outClusters:    "0019 000A",
-                    application:    "42",
-                    manufacturer:   "_TZE200_tz32mtza", model: "TS0601", deviceJoinName: "Moes multi gang switch"
-
-		// Moes 2 gang
         fingerprint profileId:      "0104",
                     deviceId:       "0051",
                     inClusters:     "0000 0004 0005 EF00",
                     outClusters:    "0019 000A",
                     application:    "42",
                     manufacturer:   "_TZE200_g1ib5ldv", model: "TS0601", deviceJoinName: "Moes 2 gang switch"
+
+		
 	}
 
 	preferences {
